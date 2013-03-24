@@ -21,7 +21,7 @@
         * Row 0 contains the back button and page title
         * Row 1 contains the rest of the page layout
     -->
-    <Grid Style="{StaticResource LayoutRootStyle}">
+    <Grid Style="{StaticResource LayoutRootStyle}" Background="#009999">
         <Grid.RowDefinitions>
             <RowDefinition Height="140"/>
             <RowDefinition Height="*"/>
@@ -37,16 +37,120 @@
             <TextBlock x:Name="pageTitle" Grid.Column="1" Text="Group X" Style="{StaticResource PageHeaderTextStyle}"/>
         </Grid>
 
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+        <StackPanel HorizontalAlignment="Left" Height="Auto" Margin="20,0,0,0" VerticalAlignment="Top" Width="Auto" Background="Transparent" Grid.Column="1" Grid.Row="1" >
+
+            <Button Background="Transparent" FontSize="36" Margin="10,0,0,0" Foreground="White">Members</Button>
+            <ListView Height="Auto" Width="Auto" ScrollViewer.HorizontalScrollBarVisibility="Visible">
+                <ListView.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapGrid Orientation="Vertical" MaximumRowsOrColumns="3"/>
+                    </ItemsPanelTemplate>
+                </ListView.ItemsPanel>
+                <Grid HorizontalAlignment="Left" Height="170" Margin="10,0,10,0" VerticalAlignment="Top" Width="206" Background="#FF615F5F" >
+                    <Image Source="Assets/chuck_norris.jpg" Stretch="UniformToFill"></Image>
+                    <TextBox HorizontalAlignment="Left" Margin="0,122,0,0" TextWrapping="Wrap" Text="Chuck" VerticalAlignment="Top" Width="206" Height="48" FontSize="24" FontWeight="Bold" Background="Black" Foreground="#FFB2A6A6"/>
+                </Grid>
+                <Grid HorizontalAlignment="Left" Height="170" Margin="10,0,10,0" VerticalAlignment="Top" Width="206" Background="#FF615F5F">
+                    <Image Source="Assets/krustevs....jpg" Stretch="UniformToFill"></Image>
+                    <TextBox HorizontalAlignment="Left" Margin="0,122,0,0" TextWrapping="Wrap" Text="Ben" VerticalAlignment="Top" Width="206" Height="48" FontSize="24" FontWeight="Bold" Background="Black" Foreground="#FFB2A6A6"/>
+                </Grid>
+                <Grid HorizontalAlignment="Left" Height="170" Margin="10,0,10,0" VerticalAlignment="Top" Width="206" Background="#FF615F5F">
+                    <Image Source="Assets/peoplesaa.png" Stretch="UniformToFill"></Image>
+                    <TextBox HorizontalAlignment="Left" Margin="0,122,0,0" TextWrapping="Wrap" Text="Francis" VerticalAlignment="Top" Width="206" Height="48" FontSize="24" FontWeight="Bold" Background="Black" Foreground="#FFB2A6A6"/>
+                </Grid>
+                <Grid HorizontalAlignment="Left" Height="170" Margin="0,0,10,0" VerticalAlignment="Top" Width="206" Background="#FF615F5F">
+                    <Image Source="Assets/steve-ballmer.jpg" Stretch="UniformToFill"></Image>
+                        <TextBox HorizontalAlignment="Left" Margin="0,122,0,0" TextWrapping="Wrap" Text="David" VerticalAlignment="Top" Width="206" Height="48" FontSize="24" FontWeight="Bold" Background="Black" Foreground="#FFB2A6A6"/>
+                </Grid>
+                <Grid HorizontalAlignment="Left" Height="170" Margin="0,0,10,0" VerticalAlignment="Top" Width="206" Background="#FF615F5F">
+                    <Image Source="Assets/gurp.jpg" Stretch="UniformToFill"></Image>
+                    <TextBox HorizontalAlignment="Left" Margin="0,122,0,0" TextWrapping="Wrap" Text="Lorenso" VerticalAlignment="Top" Width="206" Height="48" FontSize="24" FontWeight="Bold" Background="Black" Foreground="#FFB2A6A6"/>
+                </Grid>
+                <Grid HorizontalAlignment="Left" Height="170" Margin="0,0,10,0" VerticalAlignment="Top" Width="206" Background="#FF615F5F" >
+                    <Image Source="Assets/peoplesaa.png" Stretch="UniformToFill"></Image>
+                    <TextBox HorizontalAlignment="Left" Margin="0,122,0,0" TextWrapping="Wrap" Text="Inga" VerticalAlignment="Top" Width="206" Height="48" FontSize="24" FontWeight="Bold" Background="Black" Foreground="#FFB2A6A6"/>
+                </Grid>
+                <Grid HorizontalAlignment="Left" Height="170" Margin="0,0,10,0" VerticalAlignment="Top" Width="206" Background="#FF615F5F">
+                    <Image Source="Assets/angelina.jpg" Stretch="UniformToFill"></Image>
+                    <TextBox HorizontalAlignment="Left" Margin="0,122,0,0" TextWrapping="Wrap" Text="Tanja" VerticalAlignment="Top" Width="206" Height="48" FontSize="24" FontWeight="Bold" Background="Black" Foreground="#FFB2A6A6"/>
+                </Grid>
+                <Grid HorizontalAlignment="Left" Height="170" Margin="0,0,10,0" VerticalAlignment="Top" Width="206" Background="#FF615F5F">
+                    <Image Source="Assets/anbela.jpg" Stretch="UniformToFill"></Image>
+                    <TextBox HorizontalAlignment="Left" Margin="0,122,0,0" TextWrapping="Wrap" Text="Kaiva" VerticalAlignment="Top" Width="206" Height="48" FontSize="24" FontWeight="Bold" Background="Black" Foreground="#FFB2A6A6"/>
+                </Grid>
+                <Grid HorizontalAlignment="Left" Height="170" Margin="0,0,10,0" VerticalAlignment="Top" Width="206" Background="#FF615F5F">
+                    <Image Source="Assets/britney.jpg" Stretch="UniformToFill"></Image>
+                    <TextBox HorizontalAlignment="Left" Margin="0,122,0,0" TextWrapping="Wrap" Text="Ilze" VerticalAlignment="Top" Width="206" Height="48" FontSize="24" FontWeight="Bold" Background="Black" Foreground="#FFB2A6A6"/>
+                </Grid>
+                <Grid HorizontalAlignment="Left" Height="170" Margin="0,0,10,0" VerticalAlignment="Top" Width="206" Background="#FF615F5F">
+                    <Image Source="Assets/aristotle.jpg" Stretch="UniformToFill"></Image>
+                    <TextBox HorizontalAlignment="Left" Margin="0,122,0,0" TextWrapping="Wrap" Text="Dons" VerticalAlignment="Top" Width="206" Height="48" FontSize="24" FontWeight="Bold" Background="Black" Foreground="#FFB2A6A6"/>
+                </Grid>
+                <Grid HorizontalAlignment="Left" Height="170" Margin="0,0,10,0" VerticalAlignment="Top" Width="206" Background="#FF615F5F">
+                    <Image Source="Assets/peoplesaa.png" Stretch="UniformToFill"></Image>
+                    <TextBox HorizontalAlignment="Left" Margin="0,122,0,0" TextWrapping="Wrap" Text="David" VerticalAlignment="Top" Width="206" Height="48" FontSize="24" FontWeight="Bold" Background="Black" Foreground="#FFB2A6A6"/>
+                </Grid>
+                <Grid HorizontalAlignment="Left" Height="170" Margin="0,0,10,0" VerticalAlignment="Top" Width="206" Background="#FF615F5F">
+                    <Image Source="Assets/Jean-Claude-Van-Damme-008.jpg" Stretch="UniformToFill"></Image>
+                    <TextBox HorizontalAlignment="Left" Margin="0,122,0,0" TextWrapping="Wrap" Text="Lorenso" VerticalAlignment="Top" Width="206" Height="48" FontSize="24" FontWeight="Bold" Background="Black" Foreground="#FFB2A6A6"/>
+                </Grid>
+                <Grid HorizontalAlignment="Left" Height="170" Margin="0,0,10,0" VerticalAlignment="Top" Width="206" Background="#FF615F5F" >
+                    <Image Source="Assets/peoplesaa.png" Stretch="UniformToFill"></Image>
+                    <TextBox HorizontalAlignment="Left" Margin="0,122,0,0" TextWrapping="Wrap" Text="Inga" VerticalAlignment="Top" Width="206" Height="48" FontSize="24" FontWeight="Bold" Background="Black" Foreground="#FFB2A6A6"/>
+                </Grid>
+                <Grid HorizontalAlignment="Left" Height="170" Margin="0,0,10,0" VerticalAlignment="Top" Width="206" Background="#FF615F5F">
+                    <Image Source="Assets/homer.png" Stretch="UniformToFill"></Image>
+                    <TextBox HorizontalAlignment="Left" Margin="0,122,0,0" TextWrapping="Wrap" Text="Tanja" VerticalAlignment="Top" Width="206" Height="48" FontSize="24" FontWeight="Bold" Background="Black" Foreground="#FFB2A6A6"/>
+                </Grid>
+                <Grid HorizontalAlignment="Left" Height="170" Margin="0,0,10,0" VerticalAlignment="Top" Width="206" Background="#FF615F5F">
+                    <Image Source="Assets/peoplesaa.png" Stretch="UniformToFill"></Image>
+                    <TextBox HorizontalAlignment="Left" Margin="0,122,0,0" TextWrapping="Wrap" Text="Kaiva" VerticalAlignment="Top" Width="206" Height="48" FontSize="24" FontWeight="Bold" Background="Black" Foreground="#FFB2A6A6"/>
+                </Grid>
+                <Grid HorizontalAlignment="Left" Height="170" Margin="0,0,10,0" VerticalAlignment="Top" Width="206" Background="#FF615F5F">
+                    <Image Source="Assets/peoplesaa.png" Stretch="UniformToFill"></Image>
+                    <TextBox HorizontalAlignment="Left" Margin="0,122,0,0" TextWrapping="Wrap" Text="Ilze" VerticalAlignment="Top" Width="206" Height="48" FontSize="24" FontWeight="Bold" Background="Black" Foreground="#FFB2A6A6"/>
+                </Grid>
+                <Grid HorizontalAlignment="Left" Height="170" Margin="0,0,10,0" VerticalAlignment="Top" Width="206" Background="#FF615F5F">
+                    <Image Source="Assets/peoplesaa.png" Stretch="UniformToFill"></Image>
+                    <TextBox HorizontalAlignment="Left" Margin="0,122,0,0" TextWrapping="Wrap" Text="Dons" VerticalAlignment="Top" Width="206" Height="48" FontSize="24" FontWeight="Bold" Background="Black" Foreground="#FFB2A6A6"/>
+                </Grid>
+                <Grid HorizontalAlignment="Left" Height="170" Margin="0,0,10,0" VerticalAlignment="Top" Width="206" Background="#FF615F5F">
+                    <Image Source="Assets/Steven Seagal's Home.jpg" Stretch="UniformToFill"></Image>
+                    <TextBox HorizontalAlignment="Left" Margin="0,122,0,0" TextWrapping="Wrap" Text="David" VerticalAlignment="Top" Width="206" Height="48" FontSize="24" FontWeight="Bold" Background="Black" Foreground="#FFB2A6A6"/>
+                </Grid>
+                <Grid HorizontalAlignment="Left" Height="170" Margin="0,0,10,0" VerticalAlignment="Top" Width="206" Background="#FF615F5F">
+                    <Image Source="Assets/peoplesaa.png" Stretch="UniformToFill"></Image>
+                    <TextBox HorizontalAlignment="Left" Margin="0,122,0,0" TextWrapping="Wrap" Text="Lorenso" VerticalAlignment="Top" Width="206" Height="48" FontSize="24" FontWeight="Bold" Background="Black" Foreground="#FFB2A6A6"/>
+                </Grid>
+                <Grid HorizontalAlignment="Left" Height="170" Margin="0,0,10,0" VerticalAlignment="Top" Width="206" Background="#FF615F5F" >
+                    <TextBox HorizontalAlignment="Left" Margin="0,122,0,0" TextWrapping="Wrap" Text="Inga" VerticalAlignment="Top" Width="206" Height="48" FontSize="24" FontWeight="Bold" Background="Black" Foreground="#FFB2A6A6"/>
+                </Grid>
+                <Grid HorizontalAlignment="Left" Height="170" Margin="0,0,10,0" VerticalAlignment="Top" Width="206" Background="#FF615F5F">
+                    <Image Source="Assets/peoplesaa.png" Stretch="UniformToFill"></Image>
+                    <TextBox HorizontalAlignment="Left" Margin="0,122,0,0" TextWrapping="Wrap" Text="Tanja" VerticalAlignment="Top" Width="206" Height="48" FontSize="24" FontWeight="Bold" Background="Black" Foreground="#FFB2A6A6"/>
+                </Grid>
+                <Grid HorizontalAlignment="Left" Height="170" Margin="0,0,10,0" VerticalAlignment="Top" Width="206" Background="#FF615F5F">
+                    <TextBox HorizontalAlignment="Left" Margin="0,122,0,0" TextWrapping="Wrap" Text="Kaiva" VerticalAlignment="Top" Width="206" Height="48" FontSize="24" FontWeight="Bold" Background="Black" Foreground="#FFB2A6A6"/>
+                </Grid>
+                <Grid HorizontalAlignment="Left" Height="170" Margin="0,0,10,0" VerticalAlignment="Top" Width="206" Background="#FF615F5F">
+                    <Image Source="Assets/peoplesaa.png" Stretch="UniformToFill"></Image>
+                    <TextBox HorizontalAlignment="Left" Margin="0,122,0,0" TextWrapping="Wrap" Text="Ilze" VerticalAlignment="Top" Width="206" Height="48" FontSize="24" FontWeight="Bold" Background="Black" Foreground="#FFB2A6A6"/>
+                </Grid>
+                <Grid HorizontalAlignment="Left" Height="170" Margin="0,0,10,0" VerticalAlignment="Top" Width="206" Background="#FF615F5F">
+                    <TextBox HorizontalAlignment="Left" Margin="0,122,0,0" TextWrapping="Wrap" Text="Dons" VerticalAlignment="Top" Width="206" Height="48" FontSize="24" FontWeight="Bold" Background="Black" Foreground="#FFB2A6A6"/>
+                </Grid>
+            </ListView>
+        </StackPanel>
+
+
+
+
+
+
+
+
+
+
         <VisualStateManager.VisualStateGroups>
 
             <!-- Visual states reflect the application's view state -->

@@ -82,12 +82,14 @@ namespace HelloWorld
             }
         }
 
-        private void Group_X(object sender, TappedRoutedEventArgs e)
+        private void GroupX_was_Tapped(object sender, TappedRoutedEventArgs e)
         {
             if (this.Frame != null)
             {
                 this.Frame.Navigate(typeof(GroupX));
             }
         }
+
+      
     }
 }
