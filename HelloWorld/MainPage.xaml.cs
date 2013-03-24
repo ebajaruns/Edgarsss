@@ -90,6 +90,11 @@ namespace HelloWorld
             }
         }
 
+        private void It_Was_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+
+        }
+
       
     }
 }
