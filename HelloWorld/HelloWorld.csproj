@@ -124,6 +124,9 @@
     </Compile>
     <Compile Include="Common\RichTextColumns.cs" />
     <Compile Include="Common\SuspensionManager.cs" />
+    <Compile Include="ITRatingGrid.xaml.cs">
+      <DependentUpon>ITRatingGrid.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Groups.xaml.cs">
       <DependentUpon>Groups.xaml</DependentUpon>
     </Compile>
@@ -165,6 +168,10 @@
     <Content Include="Assets\steve-ballmer.jpg" />
     <Content Include="Assets\Steven Seagal%27s Home.jpg" />
     <Content Include="Assets\StoreLogo.png" />
+    <Page Include="ITRatingGrid.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="WinCodeCampEvaluationGrid.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

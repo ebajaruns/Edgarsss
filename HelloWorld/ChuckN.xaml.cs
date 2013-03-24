@@ -41,5 +41,18 @@ namespace HelloWorld
             // TODO: Assign a bindable group to this.DefaultViewModel["Group"]
             // TODO: Assign a collection of bindable items to this.DefaultViewModel["Items"]
         }
+
+        private void Rectangle_Tapped_1(object sender, TappedRoutedEventArgs e)
+        {
+
+        }
+
+        private void random_it_tapped_event(object sender, TappedRoutedEventArgs e)
+        {
+            if (this.Frame != null)
+            {
+                this.Frame.Navigate(typeof(CodeCamp));
+            }
+        }
     }
 }

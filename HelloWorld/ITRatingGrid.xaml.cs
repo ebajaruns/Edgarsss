@@ -1,5 +1,4 @@
-﻿using HelloWorld.Common;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -20,9 +19,9 @@ namespace HelloWorld
     /// <summary>
     /// A basic page that provides characteristics common to most applications.
     /// </summary>
-    public sealed partial class MainPage : HelloWorld.Common.LayoutAwarePage
+    public sealed partial class ITRatingGrid : HelloWorld.Common.LayoutAwarePage
     {
-        public MainPage()
+        public ITRatingGrid()
         {
             this.InitializeComponent();
         }
@@ -50,67 +49,13 @@ namespace HelloWorld
         {
         }
 
-        private void Photo_Click(object sender, RoutedEventArgs e)
-        {
-            if (this.Frame != null)
-            {
-                this.Frame.Navigate(typeof(PhotoPage));
-            }
-        }
-
-        public void Brad_Was_Tapped(object sender, RoutedEventArgs e)
-        {
-            if (this.Frame != null)
-            {
-                this.Frame.Navigate(typeof(PhotoPage));
-            }
-        }
-
-        public void Bred_Was_Tapped(object sender, RoutedEventArgs e)
-        {
-            if (this.Frame != null)
-            {
-                this.Frame.Navigate(typeof(Groups));
-            }
-        }
-
-        private void Chemistry_Was_Tapped(object sender, TappedRoutedEventArgs e)
-        {
-            if (this.Frame != null)
-            {
-                this.Frame.Navigate(typeof(ChemistryDetailsPage));
-            }
-        }
-
-        private void GroupX_was_Tapped(object sender, TappedRoutedEventArgs e)
-        {
-            if (this.Frame != null)
-            {
-                this.Frame.Navigate(typeof(GroupX));
-            }
-        }
-
-        private void It_Was_Tapped(object sender, TappedRoutedEventArgs e)
+        private void Win8_CodeCamp_Tapped(object sender, TappedRoutedEventArgs e)
         {
 
-        }
-
-        private void EvaluateCode_camp(object sender, TappedRoutedEventArgs e)
-        {
             if (this.Frame != null)
             {
                 this.Frame.Navigate(typeof(CodeCamp));
             }
         }
-
-        private void It_Grading_evaluation(object sender, TappedRoutedEventArgs e)
-        {
-            if (this.Frame != null)
-            {
-                this.Frame.Navigate(typeof(ITRatingGrid));
-            }
-        }
-
-      
     }
 }
