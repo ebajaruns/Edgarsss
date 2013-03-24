@@ -19,9 +19,9 @@ namespace HelloWorld
     /// <summary>
     /// A basic page that provides characteristics common to most applications.
     /// </summary>
-    public sealed partial class ChemistryDetailsPage : HelloWorld.Common.LayoutAwarePage
+    public sealed partial class WinCodeCampEvaluationGrid : HelloWorld.Common.LayoutAwarePage
     {
-        public ChemistryDetailsPage()
+        public WinCodeCampEvaluationGrid()
         {
             this.InitializeComponent();
         }
@@ -47,15 +47,6 @@ namespace HelloWorld
         /// <param name="pageState">An empty dictionary to be populated with serializable state.</param>
         protected override void SaveState(Dictionary<String, Object> pageState)
         {
-        }
-
-        private void Win8_CodeCamp_Tapped(object sender, TappedRoutedEventArgs e)
-        {
-
-            if (this.Frame != null)
-            {
-                this.Frame.Navigate(typeof(WinCodeCampEvaluationGrid));
-            }
         }
     }
 }
