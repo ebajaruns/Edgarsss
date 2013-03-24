@@ -135,23 +135,13 @@
 
           
             <!-- the third panel -->
-            <StackPanel HorizontalAlignment="Left" Height="Auto" Margin="20,0,0,0" VerticalAlignment="Top" Width="455" Background="#437DD4" Grid.Column="2" Grid.Row="1">
-                <Button Background="Transparent" FontSize="36" Tapped="Brad_Was_Tapped" Margin="10,0,0,0" Foreground="White">Subjects</Button>
+            <StackPanel HorizontalAlignment="Left" Height="Auto" Margin="20,0,0,0" VerticalAlignment="Top" Width="Auto" Background="#437DD4" Grid.Column="2" Grid.Row="1" >
 
-                <ListView Grid.Row="1"
-                          Height="auto"
-                          VerticalAlignment="Center" 
-                          ScrollViewer.HorizontalScrollBarVisibility="Auto"
-                          ScrollViewer.VerticalScrollBarVisibility="Visible"
-                          ScrollViewer.HorizontalScrollMode="Enabled"
-                          ScrollViewer.VerticalScrollMode="Enabled"
-                          ScrollViewer.ZoomMode="Disabled"
-                          SelectionMode="None" 
-                          Margin="0,0,0,0">
+                <Button Background="Transparent" FontSize="36" Foreground="White"  Margin="10,0,0,0">Groups</Button>
+                <ListView Height="Auto" Width="Auto">
                     <ListView.ItemsPanel>
                         <ItemsPanelTemplate>
-                            <StackPanel
-                Orientation="Vertical"/>
+                            <WrapGrid Orientation="Vertical" MaximumRowsOrColumns="3"/>
                         </ItemsPanelTemplate>
                     </ListView.ItemsPanel>
                     <Grid HorizontalAlignment="Left" Height="170" VerticalAlignment="Top" Width="Auto" Background="White" Margin="10,0,10,0" Tapped="Chemistry_Was_Tapped">
@@ -169,9 +159,10 @@
                     <Grid HorizontalAlignment="Left" Height="170" VerticalAlignment="Top" Width="Auto" Background="White" Margin="10,0,10,0">
                         <TextBox HorizontalAlignment="Left" Margin="0,122,0,0" TextWrapping="Wrap" Text="History" VerticalAlignment="Top" Width="206" Height="48" FontSize="24" FontWeight="Bold" Background="Black" Foreground="White"/>
                     </Grid>
-                </ListView>
 
+                </ListView>
             </StackPanel>
+
 
 
         </Grid>
