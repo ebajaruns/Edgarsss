@@ -151,6 +151,11 @@
     <None Include="HelloWorld_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\1english.png" />
+    <Content Include="Assets\1history.png" />
+    <Content Include="Assets\1ITsss.jpg" />
+    <Content Include="Assets\1philosophy.png" />
+    <Content Include="Assets\1physics.png" />
     <Content Include="Assets\7thgrade.jpg" />
     <Content Include="Assets\8thgrade.jpg" />
     <Content Include="Assets\9thgrade.jpg" />

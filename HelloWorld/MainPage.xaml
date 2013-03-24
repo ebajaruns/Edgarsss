@@ -145,18 +145,23 @@
                         </ItemsPanelTemplate>
                     </ListView.ItemsPanel>
                     <Grid HorizontalAlignment="Left" Height="170" VerticalAlignment="Top" Width="Auto" Background="White" Margin="10,0,10,0" Tapped="Chemistry_Was_Tapped">
+                        <Image Source="Assets/1english.png"/>
                         <TextBox HorizontalAlignment="Left" Margin="0,122,0,0" TextWrapping="Wrap" Text="English" VerticalAlignment="Top" Width="206" Height="48" FontSize="24" FontWeight="Bold" Background="Black" Foreground="White"/>
                     </Grid>
                     <Grid HorizontalAlignment="Left" Height="170" VerticalAlignment="Top" Width="Auto" Background="White" Margin="10,0,10,0" Tapped="It_Grading_evaluation">
+                        <Image Source="Assets/1ITsss.jpg"/>
                         <TextBox HorizontalAlignment="Left" Margin="0,122,0,0" TextWrapping="Wrap" Text="IT" VerticalAlignment="Top" Width="206" Height="48" FontSize="24" FontWeight="Bold" Background="Black" Foreground="White"/>
                     </Grid>
                     <Grid HorizontalAlignment="Left" Height="170" VerticalAlignment="Top" Width="Auto" Background="White" Margin="10,0,10,0" Tapped="EvaluateCode_camp">
+                        <Image Source="Assets/1physics.png"/>
                         <TextBox HorizontalAlignment="Left" Margin="0,122,0,0" TextWrapping="Wrap" Text="Physics" VerticalAlignment="Top" Width="206" Height="48" FontSize="24" FontWeight="Bold" Background="Black" Foreground="White"/>
                     </Grid>
                     <Grid HorizontalAlignment="Left" Height="170" VerticalAlignment="Top" Width="Auto" Background="White" Margin="10,0,10,0">
+                        <Image Source="Assets/1philosophy.png"></Image>
                         <TextBox HorizontalAlignment="Left" Margin="0,122,0,0" TextWrapping="Wrap" Text="Philosophy" VerticalAlignment="Top" Width="206" Height="48" FontSize="24" FontWeight="Bold" Background="Black" Foreground="White"/>
                     </Grid>
                     <Grid HorizontalAlignment="Left" Height="170" VerticalAlignment="Top" Width="Auto" Background="White" Margin="10,0,10,0">
+                        <Image Source="Assets/1history.png"/>
                         <TextBox HorizontalAlignment="Left" Margin="0,122,0,0" TextWrapping="Wrap" Text="History" VerticalAlignment="Top" Width="206" Height="48" FontSize="24" FontWeight="Bold" Background="Black" Foreground="White"/>
                     </Grid>
 
