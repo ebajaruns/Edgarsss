@@ -57,13 +57,13 @@
                 Orientation="Vertical" />
                 </ItemsPanelTemplate>
             </ListView.ItemsPanel>
-            <Grid>
+            <Grid  Tapped="Win8_CodeCamp_Tapped">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition/>
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
                 <Rectangle Fill="#33CCCC" Width="300" Height="100" Grid.Column="0"/>
-                <TextBlock Grid.Column="1" VerticalAlignment="Center" Margin="10,0,0,10" FontSize="24" FontWeight="Bold" Tapped="Win8_CodeCamp_Tapped"> win8 code camp </TextBlock>
+                <TextBlock Grid.Column="1" VerticalAlignment="Center" Margin="10,0,0,10" FontSize="24" FontWeight="Bold"> win8 code camp </TextBlock>
             </Grid>
             <Grid>
                 <Grid.ColumnDefinitions>

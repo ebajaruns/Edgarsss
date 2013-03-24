@@ -131,6 +131,9 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WinCodeCampEvaluationGrid.xaml.cs">
+      <DependentUpon>WinCodeCampEvaluationGrid.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -159,6 +162,10 @@
     <Content Include="Assets\steve-ballmer.jpg" />
     <Content Include="Assets\Steven Seagal%27s Home.jpg" />
     <Content Include="Assets\StoreLogo.png" />
+    <Page Include="WinCodeCampEvaluationGrid.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="GroupX.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
