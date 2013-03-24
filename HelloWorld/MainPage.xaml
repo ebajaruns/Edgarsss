@@ -109,19 +109,24 @@
                         </ItemsPanelTemplate>
                     </ListView.ItemsPanel>
                     <Grid HorizontalAlignment="Left" Height="170" Margin="10,0,10,0" VerticalAlignment="Top" Width="206" Background="White" Tapped="GroupX_was_Tapped">
-                    <TextBox HorizontalAlignment="Left" Margin="0,122,0,0" TextWrapping="Wrap" Text="Group X" VerticalAlignment="Top" Width="206" Height="48" FontSize="24" FontWeight="Bold" Background="Black" Foreground="White"/>
+                        <Image Source="Assets/8thgrade.jpg" Stretch="UniformToFill"></Image>
+                            <TextBox HorizontalAlignment="Left" Margin="0,122,0,0" TextWrapping="Wrap" Text="7th Grade" VerticalAlignment="Top" Width="206" Height="48" FontSize="24" FontWeight="Bold" Background="Black" Foreground="White"/>
                 </Grid>
                 <Grid HorizontalAlignment="Left" Height="170" Margin="10,0,10,0" VerticalAlignment="Top" Width="206" Background="White">
-                    <TextBox HorizontalAlignment="Left" Margin="0,122,0,0" TextWrapping="Wrap" Text="Real Friends" VerticalAlignment="Top" Width="206" Height="48" FontSize="24" FontWeight="Bold" Background="Black" Foreground="White"/>
+                        <Image Source="Assets/7thgrade.jpg" Stretch="UniformToFill"></Image>
+                            <TextBox HorizontalAlignment="Left" Margin="0,122,0,0" TextWrapping="Wrap" Text="6th Grade" VerticalAlignment="Top" Width="206" Height="48" FontSize="24" FontWeight="Bold" Background="Black" Foreground="White"/>
                 </Grid>
                     <Grid HorizontalAlignment="Left" Height="170" Margin="10,0,10,0" VerticalAlignment="Top" Width="206" Background="White">
-                        <TextBox HorizontalAlignment="Left" Margin="0,122,0,0" TextWrapping="Wrap" Text="Real Friends" VerticalAlignment="Top" Width="206" Height="48" FontSize="24" FontWeight="Bold" Background="Black" Foreground="White"/>
+                        <Image Source="Assets/gindergarten.jpg" Stretch="UniformToFill"> </Image>
+                        <TextBox HorizontalAlignment="Left" Margin="0,122,0,0" TextWrapping="Wrap" Text="Kindergarten" VerticalAlignment="Top" Width="206" Height="48" FontSize="24" FontWeight="Bold" Background="Black" Foreground="White"/>
                     </Grid>
                     <Grid HorizontalAlignment="Left" Height="170" Margin="0,0,10,0" VerticalAlignment="Top" Width="206" Background="White">
-                        <TextBox HorizontalAlignment="Left" Margin="0,122,0,0" TextWrapping="Wrap" Text="Real Friends" VerticalAlignment="Top" Width="206" Height="48" FontSize="24" FontWeight="Bold" Background="Black" Foreground="White"/>
+                        <Image Source="Assets/9thgrade.jpg" Stretch="UniformToFill"></Image>
+                        <TextBox HorizontalAlignment="Left" Margin="0,122,0,0" TextWrapping="Wrap" Text="8th Grade" VerticalAlignment="Top" Width="206" Height="48" FontSize="24" FontWeight="Bold" Background="Black" Foreground="White"/>
                     </Grid>
                     <Grid HorizontalAlignment="Left" Height="170" Margin="0,0,10,0" VerticalAlignment="Top" Width="206" Background="White">
-                        <TextBox HorizontalAlignment="Left" Margin="0,122,0,0" TextWrapping="Wrap" Text="Real Friends" VerticalAlignment="Top" Width="206" Height="48" FontSize="24" FontWeight="Bold" Background="Black" Foreground="White"/>
+                        <Image Source="Assets/peoplesaa.png" Stretch="UniformToFill"></Image>
+                        <TextBox HorizontalAlignment="Left" Margin="0,122,0,0" TextWrapping="Wrap" Text="Parents" VerticalAlignment="Top" Width="206" Height="48" FontSize="24" FontWeight="Bold" Background="Black" Foreground="White"/>
                     </Grid>
      
                 </ListView>
