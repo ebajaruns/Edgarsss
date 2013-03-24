@@ -155,7 +155,7 @@
                     <Grid HorizontalAlignment="Left" Height="170" VerticalAlignment="Top" Width="Auto" Background="White" Margin="10,0,10,0" Tapped="It_Was_Tapped">
                         <TextBox HorizontalAlignment="Left" Margin="0,122,0,0" TextWrapping="Wrap" Text="IT" VerticalAlignment="Top" Width="206" Height="48" FontSize="24" FontWeight="Bold" Background="Black" Foreground="White"/>
                     </Grid>
-                    <Grid HorizontalAlignment="Left" Height="170" VerticalAlignment="Top" Width="Auto" Background="White" Margin="10,0,10,0">
+                    <Grid HorizontalAlignment="Left" Height="170" VerticalAlignment="Top" Width="Auto" Background="White" Margin="10,0,10,0" Tapped="EvaluateCode_camp">
                         <TextBox HorizontalAlignment="Left" Margin="0,122,0,0" TextWrapping="Wrap" Text="Physics" VerticalAlignment="Top" Width="206" Height="48" FontSize="24" FontWeight="Bold" Background="Black" Foreground="White"/>
                     </Grid>
                     <Grid HorizontalAlignment="Left" Height="170" VerticalAlignment="Top" Width="Auto" Background="#FF615F5F" Margin="10,0,10,0">

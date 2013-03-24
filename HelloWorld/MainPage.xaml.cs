@@ -95,6 +95,14 @@ namespace HelloWorld
 
         }
 
+        private void EvaluateCode_camp(object sender, TappedRoutedEventArgs e)
+        {
+            if (this.Frame != null)
+            {
+                this.Frame.Navigate(typeof(CodeCamp));
+            }
+        }
+
       
     }
 }
