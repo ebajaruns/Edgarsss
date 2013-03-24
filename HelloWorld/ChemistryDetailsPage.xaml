@@ -21,7 +21,7 @@
         * Row 0 contains the back button and page title
         * Row 1 contains the rest of the page layout
     -->
-    <Grid Style="{StaticResource LayoutRootStyle}" Background="#009999">
+    <Grid Style="{StaticResource LayoutRootStyle}" Background="#284B7E">
         <Grid.RowDefinitions>
             <RowDefinition Height="140"/>
             <RowDefinition Height="*"/>
@@ -38,7 +38,7 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
             <Button x:Name="backButton" Click="GoBack" IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}"/>
-            <TextBlock x:Name="pageTitle" Grid.Column="1" Text="{StaticResource AppName}" Style="{StaticResource PageHeaderTextStyle}"/>
+            <TextBlock x:Name="pageTitle" Foreground="White" Grid.Column="1" Text="{StaticResource AppName}" Style="{StaticResource PageHeaderTextStyle}"/>
         </Grid>
 
 
@@ -62,24 +62,24 @@
                     <ColumnDefinition/>
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
-                <Rectangle Fill="#33CCCC" Width="300" Height="100" Grid.Column="0"/>
-                <TextBlock Grid.Column="1" VerticalAlignment="Center" Margin="10,0,0,10" FontSize="24" FontWeight="Bold"> English Language </TextBlock>
+                <Rectangle Fill="#437DD4" Width="300" Height="100" Grid.Column="0"/>
+                <TextBlock Grid.Column="1" VerticalAlignment="Center" Margin="10,0,0,10" FontSize="24" FontWeight="Bold" Foreground="White"> English Language </TextBlock>
             </Grid>
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition/>
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
-                <Rectangle Fill="#33CCCC" Width="300" Height="100" Grid.Column="0"/>
-                <TextBlock Grid.Column="1" VerticalAlignment="Center" Margin="10,0,0,10" FontSize="24" FontWeight="Bold"> Home reading assignment</TextBlock>
+                <Rectangle Fill="#437DD4" Width="300" Height="100" Grid.Column="0"/>
+                <TextBlock Grid.Column="1" VerticalAlignment="Center" Margin="10,0,0,10" FontSize="24" FontWeight="Bold" Foreground="White"> Home reading assignment</TextBlock>
             </Grid>
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition/>
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
-                <Rectangle Fill="#33CCCC" Width="300" Height="100" Grid.Column="0"/>
-                <TextBlock Grid.Column="1" VerticalAlignment="Center" Margin="10,0,0,10" FontSize="24" FontWeight="Bold"> Written Essay</TextBlock>
+                <Rectangle Fill="#437DD4" Width="300" Height="100" Grid.Column="0"/>
+                <TextBlock Grid.Column="1" VerticalAlignment="Center" Margin="10,0,0,10" FontSize="24" FontWeight="Bold" Foreground="White"> Written Essay</TextBlock>
             </Grid>
 
         </ListView>

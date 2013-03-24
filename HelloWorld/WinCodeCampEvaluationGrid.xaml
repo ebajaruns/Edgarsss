@@ -21,7 +21,7 @@
         * Row 0 contains the back button and page title
         * Row 1 contains the rest of the page layout
     -->
-    <Grid Style="{StaticResource LayoutRootStyle}" Background="#009999">
+    <Grid Style="{StaticResource LayoutRootStyle}" Background="#284B7E">
         <Grid.RowDefinitions>
             <RowDefinition Height="140"/>
             <RowDefinition Height="*"/>
@@ -34,7 +34,7 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
             <Button x:Name="backButton" Click="GoBack" IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}"/>
-            <TextBlock x:Name="pageTitle" Grid.Column="1" Text="{StaticResource AppName}" Style="{StaticResource PageHeaderTextStyle}"/>
+            <TextBlock x:Name="pageTitle" Grid.Column="1" Text="{StaticResource AppName}" Style="{StaticResource PageHeaderTextStyle}" Foreground="White"/>
         </Grid>
         
         <Grid Grid.Row="1">
@@ -51,28 +51,28 @@
             </Grid.RowDefinitions>
 
             <Grid Grid.Column="0" Grid.Row="1" Grid.RowSpan="2" Margin="10,10,5,10" VerticalAlignment="Center">
-                <ItemsControl ItemsSource="UNDERSTANDING" FontSize="34" FontWeight="Bold"/>
+                <ItemsControl ItemsSource="UNDERSTANDING" FontSize="34" FontWeight="Bold" Foreground="White"/>
             </Grid>
             
             <Grid Grid.Column="1" Grid.Row="1" Margin="10,5,5,5" VerticalAlignment="Center" HorizontalAlignment="Center">
                 <!--<TextBox IsReadOnly="True" Text="Listening" VerticalAlignment="Center" FontSize="30" TextAlignment="Center"></TextBox>-->
-                <ItemsControl ItemsSource="LISTENING" FontSize="34" FontWeight="Bold"/>
+                <ItemsControl ItemsSource="LISTENING" FontSize="34" FontWeight="Bold" Foreground="White"/>
             </Grid>
 
             <Grid Grid.Column="1" Grid.Row="2"  Margin="10,5,5,10" VerticalAlignment="Center" HorizontalAlignment="Center">
-                <ItemsControl ItemsSource="READING" FontSize="34" FontWeight="Bold"/>
+                <ItemsControl ItemsSource="READING" FontSize="34" FontWeight="Bold" Foreground="White"/>
             </Grid>
-            
-            <TextBox IsReadOnly="True" Grid.Column="2" Grid.Row="0" Text="A1" FontSize="26" Margin="5,10,5,5"></TextBox>
 
-            <TextBox IsReadOnly="True" Grid.Column="2" Grid.Row="1" TextWrapping="Wrap" Text="I can understand familiar names, words and very simple sentences, for example on notices and posters or in catalogues." FontSize="26" Margin="5,5,5,5"></TextBox>
-            <TextBox IsReadOnly="True" Grid.Column="2" Grid.Row="2" Text="I can understand familiar words and very basic phrases concerning myself, my family and immediate concrete surroundings when people speak slowly and clearly." FontSize="26" TextWrapping="Wrap" Margin="5,5,5,10"/>
+            <TextBox IsReadOnly="True" Grid.Column="2" Grid.Row="0" Text="A1" Foreground="White" FontSize="26" Margin="5,10,5,5" Background="#437DD4"></TextBox>
 
-            <TextBox IsReadOnly="True" Grid.Column="3" Grid.Row="2" FontSize="26" TextWrapping="Wrap" Text="I can read very short, simple texts. I can find specific, predictable information in simple everyday material such as advertisements, prospectuses, menus and timetables and I can understand short simple personal letters." Margin="5,5,10,10"> </TextBox>
+            <TextBox IsReadOnly="True" Grid.Column="2" Grid.Row="1" Foreground="White" TextWrapping="Wrap" Background="#437DD4" Text="I can understand familiar names, words and very simple sentences, for example on notices and posters or in catalogues." FontSize="26" Margin="5,5,5,5"></TextBox>
+            <TextBox Foreground="White" IsReadOnly="True" Background="#437DD4" Grid.Column="2" Grid.Row="2" Text="I can understand familiar words and very basic phrases concerning myself, my family and immediate concrete surroundings when people speak slowly and clearly." FontSize="26" TextWrapping="Wrap" Margin="5,5,5,10"/>
 
-            <TextBox IsReadOnly="True" Margin="5,5,10,5" Grid.Column="3" Grid.Row="1" FontSize="26" TextWrapping="Wrap" Text="I can understand phrases and the highest frequency vocabulary related to areas of most immediate personal relevance (e.g. very basic personal and family information, shopping, local area, employment). I can catch the main point in short, clear, simple messages and announcements. "></TextBox>
+            <TextBox  Background="#437DD4" Foreground="White" IsReadOnly="True" Grid.Column="3" Grid.Row="2" FontSize="26" TextWrapping="Wrap" Text="I can read very short, simple texts. I can find specific, predictable information in simple everyday material such as advertisements, prospectuses, menus and timetables and I can understand short simple personal letters." Margin="5,5,10,10"> </TextBox>
 
-            <TextBox IsReadOnly="True" Grid.Column="3" Grid.Row="0" Text="A2" FontSize="26" Margin="5,10,5,5"></TextBox>
+            <TextBox IsReadOnly="True" Foreground="White" Background="#437DD4" Margin="5,5,10,5" Grid.Column="3" Grid.Row="1" FontSize="26" TextWrapping="Wrap" Text="I can understand phrases and the highest frequency vocabulary related to areas of most immediate personal relevance (e.g. very basic personal and family information, shopping, local area, employment). I can catch the main point in short, clear, simple messages and announcements. "></TextBox>
+
+            <TextBox IsReadOnly="True" Grid.Column="3" Grid.Row="0" Text="A2" Foreground="White" FontSize="26" Margin="5,10,5,5" Background="#437DD4"></TextBox>
 
 
         </Grid>
