@@ -112,6 +112,9 @@
     <Compile Include="ChuckN.xaml.cs">
       <DependentUpon>ChuckN.xaml</DependentUpon>
     </Compile>
+    <Compile Include="CodeCamp.xaml.cs">
+      <DependentUpon>CodeCamp.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Common\BindableBase.cs" />
     <Compile Include="Common\BooleanNegationConverter.cs" />
     <Compile Include="Common\BooleanToVisibilityConverter.cs" />
@@ -185,6 +188,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="ChuckN.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CodeCamp.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
