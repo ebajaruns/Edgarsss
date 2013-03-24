@@ -21,7 +21,7 @@
         * Row 0 contains the back button and page title
         * Row 1 contains the rest of the page layout
     -->
-    <Grid Style="{StaticResource LayoutRootStyle}" Background="#009999">
+    <Grid Style="{StaticResource LayoutRootStyle}" Background="#284B7E">
         <Grid.RowDefinitions>
             <RowDefinition Height="140"/>
             <RowDefinition Height="Auto"/>
@@ -35,7 +35,7 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
             <Button x:Name="backButton" Click="GoBack" IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}"/>
-            <TextBlock x:Name="pageTitle" Grid.Column="1" Text="{StaticResource AppName}" Style="{StaticResource PageHeaderTextStyle}"/>
+            <TextBlock x:Name="pageTitle" Foreground="White" Grid.Column="1" Text="{StaticResource AppName}" Style="{StaticResource PageHeaderTextStyle}"/>
         </Grid>
 
         <Grid Grid.Row="1">
@@ -68,12 +68,26 @@
                     <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
 
-                <TextBlock Grid.Column="0" Grid.Row="0"  Text="Functionality and completeness" TextWrapping="Wrap" FontSize="26" Margin="5,10,5,5"  Foreground="White">  </TextBlock>
-                <TextBlock Grid.Column="0" Grid.Row="1" Text="Win8 features" FontSize="26" Margin="5,10,5,5"  TextWrapping="Wrap" Foreground="White"></TextBlock>
-                <TextBlock Grid.Column="0" Grid.Row="2" Text="Win8 design and UI" FontSize="26" Margin="5,10,5,5"  TextWrapping="Wrap" Foreground="White"></TextBlock>
-                <TextBlock Grid.Column="0" Grid.Row="3"  Text="App is ready for market!" TextWrapping="Wrap" FontSize="26" Margin="5,10,5,5"  Foreground="White"></TextBlock>
-                <TextBlock Grid.Column="0" Grid.Row="4" Text="Progress over the weekend" FontSize="26" Margin="5,10,5,5"  TextWrapping="Wrap" Foreground="White"></TextBlock>
-                <TextBlock Grid.Column="0" Grid.Row="5" Text="Final presentation" FontSize="26" Margin="5,10,5,5"  TextWrapping="Wrap" Foreground="White"></TextBlock>
+                <Grid Background="#0F4DA8" Grid.Column="0" Grid.Row="0" Margin="5,5,5,5">
+                    <TextBlock  Text="Functionality and completeness" TextWrapping="Wrap" FontSize="26" Margin="5,10,5,5"  Foreground="White"></TextBlock>
+                </Grid>
+                <Grid Background="#0F4DA8" Grid.Column="0" Grid.Row="1" Margin="5,5,5,5">
+                    <TextBlock  Text="Win8 features" FontSize="26" Margin="5,10,5,5"  TextWrapping="Wrap" Foreground="White"></TextBlock>
+                </Grid>
+                <Grid Grid.Column="0" Grid.Row="2" Background="#0F4DA8" Margin="5,5,5,5">
+                    <TextBlock  Text="Win8 design and UI" FontSize="26" Margin="5,10,5,5"  TextWrapping="Wrap" Foreground="White"></TextBlock>
+                </Grid>
+                <Grid Grid.Column="0" Grid.Row="3" Background="#0F4DA8" Margin="5,5,5,5">
+                    <TextBlock  Text="App is ready for market!" TextWrapping="Wrap" FontSize="26" Margin="5,10,5,5"  Foreground="White"></TextBlock>
+                </Grid>
+
+                <Grid  Grid.Column="0" Grid.Row="4" Background="#0F4DA8" Margin="5,5,5,5">
+                    <TextBlock Text="Progress over the weekend" FontSize="26" Margin="5,10,5,5"  TextWrapping="Wrap" Foreground="White"></TextBlock>
+                </Grid>
+
+                <Grid  Grid.Column="0" Grid.Row="5" Background="#0F4DA8" Margin="5,5,5,5">
+                    <TextBlock Text="Final presentation" FontSize="26" Margin="5,10,5,5"  TextWrapping="Wrap" Foreground="White"></TextBlock>
+                </Grid>
 
                 <TextBlock Grid.Column="1" Grid.Row="0"  Text="Perfect – all the functions work and people might actually use this app." TextWrapping="Wrap" FontSize="22" Margin="5,10,5,5"  Foreground="White"></TextBlock>
                 <TextBlock Grid.Column="1" Grid.Row="1" Text="All the one person could wish for." FontSize="22" Margin="5,10,5,5"  TextWrapping="Wrap" Foreground="White"></TextBlock>
