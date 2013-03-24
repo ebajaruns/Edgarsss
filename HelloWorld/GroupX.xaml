@@ -21,7 +21,7 @@
         * Row 0 contains the back button and page title
         * Row 1 contains the rest of the page layout
     -->
-    <Grid Style="{StaticResource LayoutRootStyle}" Background="#009999">
+    <Grid Style="{StaticResource LayoutRootStyle}" Background="#284B7E">
         <Grid.RowDefinitions>
             <RowDefinition Height="140"/>
             <RowDefinition Height="*"/>
@@ -34,7 +34,7 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
             <Button x:Name="backButton" Click="GoBack" IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}"/>
-            <TextBlock x:Name="pageTitle" Grid.Column="1" Text="Group X" Style="{StaticResource PageHeaderTextStyle}"/>
+            <TextBlock x:Name="pageTitle" Grid.Column="1" Text="Group X" Foreground="White" Style="{StaticResource PageHeaderTextStyle}"/>
         </Grid>
 
         <StackPanel HorizontalAlignment="Left" Height="Auto" Margin="20,0,0,0" VerticalAlignment="Top" Width="Auto" Background="Transparent" Grid.Column="1" Grid.Row="1" >
