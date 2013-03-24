@@ -109,6 +109,9 @@
     <Compile Include="ChemistryDetailsPage.xaml.cs">
       <DependentUpon>ChemistryDetailsPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ChuckN.xaml.cs">
+      <DependentUpon>ChuckN.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Common\BindableBase.cs" />
     <Compile Include="Common\BooleanNegationConverter.cs" />
     <Compile Include="Common\BooleanToVisibilityConverter.cs" />
@@ -118,7 +121,6 @@
     </Compile>
     <Compile Include="Common\RichTextColumns.cs" />
     <Compile Include="Common\SuspensionManager.cs" />
-    <Compile Include="Data\EvaluationCategory.cs" />
     <Compile Include="Groups.xaml.cs">
       <DependentUpon>Groups.xaml</DependentUpon>
     </Compile>
@@ -137,11 +139,25 @@
     <None Include="HelloWorld_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\anbela.jpg" />
+    <Content Include="Assets\angelina.jpg" />
+    <Content Include="Assets\aristotle.jpg" />
     <Content Include="Assets\Brad-Pitt-9441989-2-402.jpg" />
+    <Content Include="Assets\britney.jpg" />
     <Content Include="Assets\chuck_norris-.jpg" />
+    <Content Include="Assets\chuck_norris.jpg" />
+    <Content Include="Assets\darryl-weathers.jpg" />
+    <Content Include="Assets\gurp.jpg" />
+    <Content Include="Assets\homer.png" />
+    <Content Include="Assets\Jean-Claude-Van-Damme-008.jpg" />
+    <Content Include="Assets\krustevs....jpg" />
     <Content Include="Assets\Logo.png" />
+    <Content Include="Assets\obama.jpg" />
+    <Content Include="Assets\peoplesaa.png" />
     <Content Include="Assets\SmallLogo.png" />
     <Content Include="Assets\SplashScreen.png" />
+    <Content Include="Assets\steve-ballmer.jpg" />
+    <Content Include="Assets\Steven Seagal%27s Home.jpg" />
     <Content Include="Assets\StoreLogo.png" />
     <Page Include="GroupX.xaml">
       <SubType>Designer</SubType>
@@ -156,6 +172,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="ChemistryDetailsPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ChuckN.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
