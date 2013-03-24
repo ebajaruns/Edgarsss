@@ -45,9 +45,9 @@
                 <ColumnDefinition Width="300"/>
                 <ColumnDefinition Width="300"/>
             </Grid.ColumnDefinitions>
-            <TextBox IsReadOnly="True" Grid.Column="1" Grid.Row="0" Text="Max points" FontSize="30" Margin="5,10,5,5"/>
-            <TextBox IsReadOnly="True" Grid.Column="2" Grid.Row="0" Text="Average" FontSize="30" Margin="5,10,5,5"></TextBox>
-            <TextBox IsReadOnly="True" Grid.Column="3" Grid.Row="0" Text="Low score" FontSize="30" Margin="5,10,5,5"></TextBox>
+            <TextBox IsReadOnly="True" Grid.Column="1" Grid.Row="0" Text="A1" FontSize="30" Margin="5,10,5,5"/>
+            <TextBox IsReadOnly="True" Grid.Column="2" Grid.Row="0" Text="A2" FontSize="30" Margin="5,10,5,5"></TextBox>
+            <TextBox IsReadOnly="True" Grid.Column="3" Grid.Row="0" Text="B1" FontSize="30" Margin="5,10,5,5"></TextBox>
         </Grid>
 
         <ScrollViewer Grid.Row="2" Grid.ColumnSpan="4" Grid.Column="3">
@@ -85,30 +85,28 @@
                     <TextBlock Text="Writing" FontSize="26" Margin="5,10,5,5"  TextWrapping="Wrap" Foreground="White"></TextBlock>
                 </Grid>
 
-                <Grid  Grid.Column="0" Grid.Row="5" Background="#0F4DA8" Margin="5,5,5,5">
-                    <TextBlock Text="Final presentation" FontSize="26" Margin="5,10,5,5"  TextWrapping="Wrap" Foreground="White"></TextBlock>
-                </Grid>
 
-                <TextBlock Grid.Column="1" Grid.Row="0"  Text="Perfect – all the functions work and people might actually use this app." TextWrapping="Wrap" FontSize="22" Margin="5,10,5,5"  Foreground="White"></TextBlock>
-                <TextBlock Grid.Column="1" Grid.Row="1" Text="All the one person could wish for." FontSize="22" Margin="5,10,5,5"  TextWrapping="Wrap" Foreground="White"></TextBlock>
-                <TextBlock Grid.Column="1" Grid.Row="2" Text="Great sense of style – no one has made so cool app before!" FontSize="22" Margin="5,10,5,5"  TextWrapping="Wrap" Foreground="White"></TextBlock>
-                <TextBlock Grid.Column="1" Grid.Row="3"  Text="Its already there!" TextWrapping="Wrap" FontSize="22" Margin="5,10,5,5"  Foreground="White"></TextBlock>
-                <TextBlock Grid.Column="1" Grid.Row="4" Text="It is great! (I actually learned coding overnight)" FontSize="22" Margin="5,10,5,5"  TextWrapping="Wrap" Foreground="White"></TextBlock>
-                <TextBlock Grid.Column="1" Grid.Row="5" Text="Genius! Everybody loved it!" FontSize="22" Margin="5,10,5,5"  TextWrapping="Wrap" Foreground="White"></TextBlock>
+
+                <TextBlock Grid.Column="1" Grid.Row="0"  Text="I can understand familiar words and very basic phrases concerning myself, my family and immediate concrete surroundings when people speak slowly and clearly." TextWrapping="Wrap" FontSize="22" Margin="5,10,5,5"  Foreground="White"></TextBlock>
+                <TextBlock Grid.Column="1" Grid.Row="1" Text="I can understand familiar names, words and very simple sentences, for example on notices and posters or in catalogues. " FontSize="22" Margin="5,10,5,5"  TextWrapping="Wrap" Foreground="White"></TextBlock>
+                <TextBlock Grid.Column="1" Grid.Row="2" Text="I can interact in a simple way provided the other person is prepared to repeat or rephrase things at a slower rate of speech and help me formulate what I'm trying to say. I can ask and answer simple questions in areas of immediate need or on very familiar topics. " FontSize="22" Margin="5,10,5,5"  TextWrapping="Wrap" Foreground="White"></TextBlock>
+                <TextBlock Grid.Column="1" Grid.Row="3"  Text="I can use simple phrases and sentences to describe where I live and people I know. " TextWrapping="Wrap" FontSize="22" Margin="5,10,5,5"  Foreground="White"></TextBlock>
+                <TextBlock Grid.Column="1" Grid.Row="4" Text="I can write a short, simple postcard, for example sending holiday greetings. I can fill in forms with personal details, for example entering my name, nationality and address on a hotel registration form." FontSize="22" Margin="5,10,5,5"  TextWrapping="Wrap" Foreground="White"></TextBlock>
+               
 
                 <TextBlock Grid.Column="2" Grid.Row="0"  Text="It is complete, but does not function pretty well." TextWrapping="Wrap" FontSize="22" Margin="5,10,5,5"  Foreground="White"></TextBlock>
                 <TextBlock Grid.Column="2" Grid.Row="1" Text="It could use some sharing feature." FontSize="22" Margin="5,10,5,5"  TextWrapping="Wrap" Foreground="White"></TextBlock>
                 <TextBlock Grid.Column="2" Grid.Row="2" Text="UI is glitchy and design could use some improvements." FontSize="22" Margin="5,10,5,5"  TextWrapping="Wrap" Foreground="White"></TextBlock>
                 <TextBlock Grid.Column="2" Grid.Row="3"  Text="Few more things and it's gone!" TextWrapping="Wrap" FontSize="22" Margin="5,10,5,5"  Foreground="White"></TextBlock>
                 <TextBlock Grid.Column="2" Grid.Row="4" Text="Well, you have actually done something." FontSize="22" Margin="5,10,5,5"  TextWrapping="Wrap" Foreground="White"></TextBlock>
-                <TextBlock Grid.Column="2" Grid.Row="5" Text="Is that it? Where was the jokes? " FontSize="22" Margin="5,10,5,5"  TextWrapping="Wrap" Foreground="White"></TextBlock>
+                
 
                 <TextBlock Grid.Column="3" Grid.Row="0"  Text="Why did you made such a terrible app?" TextWrapping="Wrap" FontSize="22" Margin="5,10,5,5"  Foreground="White"></TextBlock>
                 <TextBlock Grid.Column="3" Grid.Row="1" Text="When you make an app you should take in consideration that it is meant for Win8." FontSize="22" Margin="5,10,5,5"  TextWrapping="Wrap" Foreground="White"></TextBlock>
                 <TextBlock Grid.Column="3" Grid.Row="2" Text="Where is the back button? Haven't you learned anything from Gusts Linkevičs lecture?" FontSize="22" Margin="5,10,5,5"  TextWrapping="Wrap" Foreground="White"></TextBlock>
                 <TextBlock Grid.Column="3" Grid.Row="3"  Text="Don't even dream about market!" TextWrapping="Wrap" FontSize="22" Margin="5,10,5,5"  Foreground="White"></TextBlock>
                 <TextBlock Grid.Column="3" Grid.Row="4" Text="Slower than turtle." FontSize="22" Margin="5,10,5,5"  TextWrapping="Wrap" Foreground="White"></TextBlock>
-                <TextBlock Grid.Column="3" Grid.Row="5" Text="Better luck next time!!!" FontSize="22" Margin="5,10,5,5"  TextWrapping="Wrap" Foreground="White"></TextBlock>
+               
 
             </Grid>
         </ScrollViewer>

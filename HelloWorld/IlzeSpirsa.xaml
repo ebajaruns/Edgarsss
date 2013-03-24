@@ -122,6 +122,12 @@
                 <TextBlock Grid.Column="1" VerticalAlignment="Center" Margin="10,0,0,10" FontSize="24" FontWeight="Bold"> Group work</TextBlock>
             </Grid>
 
+            <Button Width="301" 
+                Height="62" 
+                Margin="575,481,0,225" 
+                Click="ShareClick_Event" 
+                Content="Share" />
+
         </ListView>
 
         <!-- Back button and page title -->
