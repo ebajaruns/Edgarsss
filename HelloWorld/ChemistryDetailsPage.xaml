@@ -13,7 +13,7 @@
     <Page.Resources>
 
         <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
-        <x:String x:Key="AppName">My Application</x:String>
+        <x:String x:Key="AppName">English Rating Grid(s)</x:String>
     </Page.Resources>
 
     <!--
@@ -39,7 +39,7 @@
 
 
         <ListView Grid.Row="1"
-    Height="500"
+    Height="Auto"
     VerticalAlignment="Center"
     ScrollViewer.HorizontalScrollBarVisibility="Auto"
     ScrollViewer.VerticalScrollBarVisibility="Visible"
@@ -59,10 +59,15 @@
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
                 <Rectangle Fill="Orange" Width="300" Height="100" Grid.Column="0"/>
-                <TextBlock Grid.Column="1"> this is a text block</TextBlock>
+                <TextBlock Grid.Column="1" VerticalAlignment="Center" Margin="10,0,0,10"> English Rating Grid - 8th grade </TextBlock>
             </Grid>
             <Grid>
-                <Rectangle Fill="Orange" Width="300" Height="100"/>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Rectangle Fill="Orange" Width="300" Height="100" Grid.Column="0"/>
+                <TextBlock Grid.Column="1" VerticalAlignment="Center" Margin="10,0,0,10"> English Rating Grid - 7th grade</TextBlock>
             </Grid>
 
         </ListView>
