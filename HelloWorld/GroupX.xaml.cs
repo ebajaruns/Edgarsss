@@ -1,5 +1,4 @@
-﻿using HelloWorld.Common;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -20,9 +19,9 @@ namespace HelloWorld
     /// <summary>
     /// A basic page that provides characteristics common to most applications.
     /// </summary>
-    public sealed partial class MainPage : HelloWorld.Common.LayoutAwarePage
+    public sealed partial class GroupX : HelloWorld.Common.LayoutAwarePage
     {
-        public MainPage()
+        public GroupX()
         {
             this.InitializeComponent();
         }
@@ -48,46 +47,6 @@ namespace HelloWorld
         /// <param name="pageState">An empty dictionary to be populated with serializable state.</param>
         protected override void SaveState(Dictionary<String, Object> pageState)
         {
-        }
-
-        private void Photo_Click(object sender, RoutedEventArgs e)
-        {
-            if (this.Frame != null)
-            {
-                this.Frame.Navigate(typeof(PhotoPage));
-            }
-        }
-
-        public void Brad_Was_Tapped(object sender, RoutedEventArgs e)
-        {
-            if (this.Frame != null)
-            {
-                this.Frame.Navigate(typeof(PhotoPage));
-            }
-        }
-
-        public void Bred_Was_Tapped(object sender, RoutedEventArgs e)
-        {
-            if (this.Frame != null)
-            {
-                this.Frame.Navigate(typeof(Groups));
-            }
-        }
-
-        private void Chemistry_Was_Tapped(object sender, TappedRoutedEventArgs e)
-        {
-            if (this.Frame != null)
-            {
-                this.Frame.Navigate(typeof(ChemistryDetailsPage));
-            }
-        }
-
-        private void Group_X(object sender, TappedRoutedEventArgs e)
-        {
-            if (this.Frame != null)
-            {
-                this.Frame.Navigate(typeof(GroupX));
-            }
         }
     }
 }

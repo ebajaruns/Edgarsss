@@ -108,8 +108,8 @@
                             <WrapGrid Orientation="Vertical" MaximumRowsOrColumns="3"/>
                         </ItemsPanelTemplate>
                     </ListView.ItemsPanel>
-                    <Grid HorizontalAlignment="Left" Height="170" Margin="10,0,10,0" VerticalAlignment="Top" Width="206" Background="#FF615F5F">
-                    <TextBox HorizontalAlignment="Left" Margin="0,122,0,0" TextWrapping="Wrap" Text="Real Friends" VerticalAlignment="Top" Width="206" Height="48" FontSize="24" FontWeight="Bold" Background="Black" Foreground="#FFB2A6A6"/>
+                    <Grid HorizontalAlignment="Left" Height="170" Margin="10,0,10,0" VerticalAlignment="Top" Width="206" Background="#FF615F5F" Tapped="Group_X">
+                    <TextBox HorizontalAlignment="Left" Margin="0,122,0,0" TextWrapping="Wrap" Text="Group X" VerticalAlignment="Top" Width="206" Height="48" FontSize="24" FontWeight="Bold" Background="Black" Foreground="#FFB2A6A6"/>
                 </Grid>
                 <Grid HorizontalAlignment="Left" Height="170" Margin="10,0,10,0" VerticalAlignment="Top" Width="206" Background="#FF615F5F">
                     <TextBox HorizontalAlignment="Left" Margin="0,122,0,0" TextWrapping="Wrap" Text="Real Friends" VerticalAlignment="Top" Width="206" Height="48" FontSize="24" FontWeight="Bold" Background="Black" Foreground="#FFB2A6A6"/>
