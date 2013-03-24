@@ -68,7 +68,7 @@
             </Grid.RowDefinitions>
             
             <TextBlock x:Name="pageTitle" Grid.Column="0" Grid.Row="0" Margin="20,20,0,0" Style="{StaticResource PageHeaderTextStyle}">
-    					<Run Text="sakumlapa"/>
+    					<Run Text="launchpad"/>
     					<LineBreak/>
     					<Run/>
             </TextBlock>
@@ -83,15 +83,15 @@
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
-                <TextBox TextWrapping="Wrap" Text="Profile" FontSize="36" Background="{x:Null}" BorderThickness="0" Margin="0,0,0,0" IsReadOnly="True" RenderTransformOrigin="0.734,1.542" Grid.Row="0" Foreground="White"/>
-                <Image Source="Assets/Brad-Pitt-9441989-2-402.jpg" RenderTransformOrigin="0.911,0.367" Margin="10,10,0,0" Grid.Column="0" Grid.Row="1" Tapped="Brad_Was_Tapped" Stretch="UniformToFill"/>
+                <TextBox TextWrapping="Wrap" Text="Profile" FontSize="36" Background="#437DD4" BorderThickness="0" Margin="5,0,5,0" IsReadOnly="True" RenderTransformOrigin="0.734,1.542" Grid.Row="0" Grid.ColumnSpan="2" Foreground="White"/>
+                <Image Source="Assets/Brad-Pitt-9441989-2-402.jpg" RenderTransformOrigin="0.911,0.367" Margin="5,5,5,5" Grid.Column="0" Grid.Row="1" Tapped="Brad_Was_Tapped" Stretch="UniformToFill"/>
 
-                <StackPanel  Grid.Column="1" Grid.Row="1" Background="#437DD4" Margin="10,10,10,5" >
+                <StackPanel  Grid.Column="1" Grid.Row="1" Background="#437DD4" Margin="5,5,5,5" >
                     <TextBox TextWrapping="Wrap" Text="Brad" FontSize="36" Background="{x:Null}" Opacity="0.99" BorderThickness="0" Margin="0,12,0,0" IsReadOnly="True" RenderTransformOrigin="0.734,1.542"  />
                     <TextBox TextWrapping="Wrap" Text="Pitt" FontSize="36" Background="{x:Null}" Opacity="0.99" BorderThickness="0" Margin="0,0,0,0" IsReadOnly="True" RenderTransformOrigin="0.734,1.542"/>
                 </StackPanel>
 
-                <StackPanel Grid.Row="2" Grid.ColumnSpan="2" Background="#437DD4" Margin="10,5,10,0">
+                <StackPanel Grid.Row="2" Grid.ColumnSpan="2" Background="#437DD4" Margin="5,5,5,0">
                     <TextBox TextWrapping="Wrap" Text="Groups created: 3" FontSize="36" Background="{x:Null}" Opacity="0.99" BorderThickness="0" Margin="0,0,0,0" IsReadOnly="True" RenderTransformOrigin="0.734,1.542" Grid.Column="0" Grid.Row="2"/>
                     <TextBox TextWrapping="Wrap" Text="Subjects created: 12" FontSize="36" Background="{x:Null}" Opacity="0.99" BorderThickness="0" Margin="0,0,0,0" IsReadOnly="True" RenderTransformOrigin="0.734,1.542" Grid.Column="0" Grid.Row="2"/>
                 </StackPanel>
@@ -108,19 +108,19 @@
                             <WrapGrid Orientation="Vertical" MaximumRowsOrColumns="3"/>
                         </ItemsPanelTemplate>
                     </ListView.ItemsPanel>
-                    <Grid HorizontalAlignment="Left" Height="170" Margin="10,0,10,0" VerticalAlignment="Top" Width="206" Background="#FF615F5F" Tapped="GroupX_was_Tapped">
+                    <Grid HorizontalAlignment="Left" Height="170" Margin="10,0,10,0" VerticalAlignment="Top" Width="206" Background="White" Tapped="GroupX_was_Tapped">
                     <TextBox HorizontalAlignment="Left" Margin="0,122,0,0" TextWrapping="Wrap" Text="Group X" VerticalAlignment="Top" Width="206" Height="48" FontSize="24" FontWeight="Bold" Background="Black" Foreground="White"/>
                 </Grid>
-                <Grid HorizontalAlignment="Left" Height="170" Margin="10,0,10,0" VerticalAlignment="Top" Width="206" Background="#FF615F5F">
+                <Grid HorizontalAlignment="Left" Height="170" Margin="10,0,10,0" VerticalAlignment="Top" Width="206" Background="White">
                     <TextBox HorizontalAlignment="Left" Margin="0,122,0,0" TextWrapping="Wrap" Text="Real Friends" VerticalAlignment="Top" Width="206" Height="48" FontSize="24" FontWeight="Bold" Background="Black" Foreground="White"/>
                 </Grid>
-                    <Grid HorizontalAlignment="Left" Height="170" Margin="10,0,10,0" VerticalAlignment="Top" Width="206" Background="#FF615F5F">
+                    <Grid HorizontalAlignment="Left" Height="170" Margin="10,0,10,0" VerticalAlignment="Top" Width="206" Background="White">
                         <TextBox HorizontalAlignment="Left" Margin="0,122,0,0" TextWrapping="Wrap" Text="Real Friends" VerticalAlignment="Top" Width="206" Height="48" FontSize="24" FontWeight="Bold" Background="Black" Foreground="White"/>
                     </Grid>
-                    <Grid HorizontalAlignment="Left" Height="170" Margin="0,0,10,0" VerticalAlignment="Top" Width="206" Background="#FF615F5F">
+                    <Grid HorizontalAlignment="Left" Height="170" Margin="0,0,10,0" VerticalAlignment="Top" Width="206" Background="White">
                         <TextBox HorizontalAlignment="Left" Margin="0,122,0,0" TextWrapping="Wrap" Text="Real Friends" VerticalAlignment="Top" Width="206" Height="48" FontSize="24" FontWeight="Bold" Background="Black" Foreground="White"/>
                     </Grid>
-                    <Grid HorizontalAlignment="Left" Height="170" Margin="0,0,10,0" VerticalAlignment="Top" Width="206" Background="#FF615F5F">
+                    <Grid HorizontalAlignment="Left" Height="170" Margin="0,0,10,0" VerticalAlignment="Top" Width="206" Background="White">
                         <TextBox HorizontalAlignment="Left" Margin="0,122,0,0" TextWrapping="Wrap" Text="Real Friends" VerticalAlignment="Top" Width="206" Height="48" FontSize="24" FontWeight="Bold" Background="Black" Foreground="White"/>
                     </Grid>
      
@@ -149,14 +149,14 @@
                 Orientation="Vertical"/>
                         </ItemsPanelTemplate>
                     </ListView.ItemsPanel>
-                    <Grid HorizontalAlignment="Left" Height="170" VerticalAlignment="Top" Width="Auto" Background="#FF615F5F" Margin="10,0,10,0" Tapped="Chemistry_Was_Tapped">
-                        <TextBox HorizontalAlignment="Left" Margin="0,122,0,0" TextWrapping="Wrap" Text="English" VerticalAlignment="Top" Width="206" Height="48" FontSize="24" FontWeight="Bold" Background="Black" Foreground="#FFB2A6A6"/>
+                    <Grid HorizontalAlignment="Left" Height="170" VerticalAlignment="Top" Width="Auto" Background="White" Margin="10,0,10,0" Tapped="Chemistry_Was_Tapped">
+                        <TextBox HorizontalAlignment="Left" Margin="0,122,0,0" TextWrapping="Wrap" Text="English" VerticalAlignment="Top" Width="206" Height="48" FontSize="24" FontWeight="Bold" Background="Black" Foreground="White"/>
                     </Grid>
-                    <Grid HorizontalAlignment="Left" Height="170" VerticalAlignment="Top" Width="Auto" Background="#FF615F5F" Margin="10,0,10,0" Tapped="It_Was_Tapped">
-                        <TextBox HorizontalAlignment="Left" Margin="0,122,0,0" TextWrapping="Wrap" Text="IT" VerticalAlignment="Top" Width="206" Height="48" FontSize="24" FontWeight="Bold" Background="Black" Foreground="#FFB2A6A6"/>
+                    <Grid HorizontalAlignment="Left" Height="170" VerticalAlignment="Top" Width="Auto" Background="White" Margin="10,0,10,0" Tapped="It_Was_Tapped">
+                        <TextBox HorizontalAlignment="Left" Margin="0,122,0,0" TextWrapping="Wrap" Text="IT" VerticalAlignment="Top" Width="206" Height="48" FontSize="24" FontWeight="Bold" Background="Black" Foreground="White"/>
                     </Grid>
-                    <Grid HorizontalAlignment="Left" Height="170" VerticalAlignment="Top" Width="Auto" Background="#FF615F5F" Margin="10,0,10,0">
-                        <TextBox HorizontalAlignment="Left" Margin="0,122,0,0" TextWrapping="Wrap" Text="Physics" VerticalAlignment="Top" Width="206" Height="48" FontSize="24" FontWeight="Bold" Background="Black" Foreground="#FFB2A6A6"/>
+                    <Grid HorizontalAlignment="Left" Height="170" VerticalAlignment="Top" Width="Auto" Background="White" Margin="10,0,10,0">
+                        <TextBox HorizontalAlignment="Left" Margin="0,122,0,0" TextWrapping="Wrap" Text="Physics" VerticalAlignment="Top" Width="206" Height="48" FontSize="24" FontWeight="Bold" Background="Black" Foreground="White"/>
                     </Grid>
                     <Grid HorizontalAlignment="Left" Height="170" VerticalAlignment="Top" Width="Auto" Background="#FF615F5F" Margin="10,0,10,0">
                         <TextBox HorizontalAlignment="Left" Margin="0,122,0,0" TextWrapping="Wrap" Text="Philosophy" VerticalAlignment="Top" Width="206" Height="48" FontSize="24" FontWeight="Bold" Background="Black" Foreground="#FFB2A6A6"/>
