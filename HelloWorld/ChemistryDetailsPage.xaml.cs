@@ -48,5 +48,10 @@ namespace HelloWorld
         protected override void SaveState(Dictionary<String, Object> pageState)
         {
         }
+
+        private void English_Grid_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+
+        }
     }
 }

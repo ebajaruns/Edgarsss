@@ -21,11 +21,15 @@
         * Row 0 contains the back button and page title
         * Row 1 contains the rest of the page layout
     -->
-    <Grid Style="{StaticResource LayoutRootStyle}">
+    <Grid Style="{StaticResource LayoutRootStyle}" Background="#009999">
         <Grid.RowDefinitions>
             <RowDefinition Height="140"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
 
         <!-- Back button and page title -->
         <Grid>
@@ -38,7 +42,7 @@
         </Grid>
 
 
-        <ListView Grid.Row="1"
+        <ListView Grid.Row="1" Grid.Column="0"
     Height="Auto"
     VerticalAlignment="Center"
     ScrollViewer.HorizontalScrollBarVisibility="Auto"
@@ -58,19 +62,21 @@
                     <ColumnDefinition/>
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
-                <Rectangle Fill="Orange" Width="300" Height="100" Grid.Column="0"/>
-                <TextBlock Grid.Column="1" VerticalAlignment="Center" Margin="10,0,0,10"> English Rating Grid - 8th grade </TextBlock>
+                <Rectangle Fill="#33CCCC" Width="300" Height="100" Grid.Column="0"/>
+                <TextBlock Grid.Column="1" VerticalAlignment="Center" Margin="10,0,0,10" FontSize="24" FontWeight="Bold" Tapped="English_Grid_Tapped"> English Rating Grid - 8th grade </TextBlock>
             </Grid>
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition/>
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
-                <Rectangle Fill="Orange" Width="300" Height="100" Grid.Column="0"/>
-                <TextBlock Grid.Column="1" VerticalAlignment="Center" Margin="10,0,0,10"> English Rating Grid - 7th grade</TextBlock>
+                <Rectangle Fill="#33CCCC" Width="300" Height="100" Grid.Column="0"/>
+                <TextBlock Grid.Column="1" VerticalAlignment="Center" Margin="10,0,0,10" FontSize="24" FontWeight="Bold"> English Rating Grid - 7th grade</TextBlock>
             </Grid>
 
         </ListView>
+
+
 
         <VisualStateManager.VisualStateGroups>
 
