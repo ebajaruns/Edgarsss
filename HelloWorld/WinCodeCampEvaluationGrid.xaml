@@ -94,7 +94,10 @@
                 <TextBlock Grid.Column="1" Grid.Row="2" Text="Great sense of style – no one has made so cool app before!" FontSize="22" Margin="5,10,5,5"  TextWrapping="Wrap" Foreground="White"></TextBlock>
                 <TextBlock Grid.Column="1" Grid.Row="3"  Text="Its already there!" TextWrapping="Wrap" FontSize="22" Margin="5,10,5,5"  Foreground="White"></TextBlock>
                 <TextBlock Grid.Column="1" Grid.Row="4" Text="It is great! (I actually learned coding overnight)" FontSize="22" Margin="5,10,5,5"  TextWrapping="Wrap" Foreground="White"></TextBlock>
-                <TextBlock Grid.Column="1" Grid.Row="5" Text="Genius! Everybody loved it!" FontSize="22" Margin="5,10,5,5"  TextWrapping="Wrap" Foreground="White"></TextBlock>
+
+                <Button  FontSize="22"   Grid.Column="1" Grid.Row="5" Foreground="White" Tapped="TextBlock_Tapped_1" Background="Transparent">Genius! Everybody loved it!</Button>
+                   
+                
 
                 <TextBlock Grid.Column="2" Grid.Row="0"  Text="It is complete, but does not function pretty well." TextWrapping="Wrap" FontSize="22" Margin="5,10,5,5"  Foreground="White"></TextBlock>
                 <TextBlock Grid.Column="2" Grid.Row="1" Text="It could use some sharing feature." FontSize="22" Margin="5,10,5,5"  TextWrapping="Wrap" Foreground="White"></TextBlock>

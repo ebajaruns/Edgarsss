@@ -13,6 +13,8 @@
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{BC8A1FFA-BEE3-4634-8014-F334798102B3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <PackageCertificateKeyFile>HelloWorld_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+    <AppxPackageDir>C:\Users\gertmanis\Documents\package\</AppxPackageDir>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -106,6 +108,9 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="BasicPage1.xaml.cs">
+      <DependentUpon>BasicPage1.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ChemistryDetailsPage.xaml.cs">
       <DependentUpon>ChemistryDetailsPage.xaml</DependentUpon>
     </Compile>
@@ -151,6 +156,7 @@
     <None Include="HelloWorld_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="2783609489_f9a74ef37d_z.jpg" />
     <Content Include="Assets\1english.png" />
     <Content Include="Assets\1history.png" />
     <Content Include="Assets\1ITsss.jpg" />
@@ -170,6 +176,7 @@
     <Content Include="Assets\gindergarten.jpg" />
     <Content Include="Assets\gurp.jpg" />
     <Content Include="Assets\homer.png" />
+    <Content Include="Assets\IMG_24032013_072804.png" />
     <Content Include="Assets\Jean-Claude-Van-Damme-008.jpg" />
     <Content Include="Assets\krustevs....jpg" />
     <Content Include="Assets\Logo.png" />
@@ -215,6 +222,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="CodeCamp.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="BasicPage1.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

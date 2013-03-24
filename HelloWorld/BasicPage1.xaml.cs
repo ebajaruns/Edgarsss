@@ -4,7 +4,6 @@ using System.IO;
 using System.Linq;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
-using Windows.UI.Popups;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -20,9 +19,9 @@ namespace HelloWorld
     /// <summary>
     /// A basic page that provides characteristics common to most applications.
     /// </summary>
-    public sealed partial class CodeCamp : HelloWorld.Common.LayoutAwarePage
+    public sealed partial class BasicPage1 : HelloWorld.Common.LayoutAwarePage
     {
-        public CodeCamp()
+        public BasicPage1()
         {
             this.InitializeComponent();
         }
@@ -48,14 +47,6 @@ namespace HelloWorld
         /// <param name="pageState">An empty dictionary to be populated with serializable state.</param>
         protected override void SaveState(Dictionary<String, Object> pageState)
         {
-        }
-
-        private void TextBlock_Tapped_1(object sender, TappedRoutedEventArgs e)
-        {
-            if (this.Frame != null)
-            {
-                this.Frame.Navigate(typeof(BasicPage1));
-            }
         }
     }
 }

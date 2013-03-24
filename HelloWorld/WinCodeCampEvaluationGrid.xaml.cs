@@ -48,5 +48,13 @@ namespace HelloWorld
         protected override void SaveState(Dictionary<String, Object> pageState)
         {
         }
+
+        private void TextBlock_Tapped_1(object sender, TappedRoutedEventArgs e)
+        {
+            if (this.Frame != null)
+            {
+                this.Frame.Navigate(typeof(BasicPage1));
+            }
+        }
     }
 }

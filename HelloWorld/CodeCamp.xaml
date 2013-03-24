@@ -89,27 +89,32 @@
                     <TextBlock Text="Final presentation" FontSize="26" Margin="5,10,5,5"  TextWrapping="Wrap" Foreground="White"></TextBlock>
                 </Grid>
 
-                <TextBlock Grid.Column="1" Grid.Row="0"  Text="Perfect – all the functions work and people might actually use this app." TextWrapping="Wrap" FontSize="22" Margin="5,10,5,5"  Foreground="White"></TextBlock>
-                <TextBlock Grid.Column="1" Grid.Row="1" Text="All the one person could wish for." FontSize="22" Margin="5,10,5,5"  TextWrapping="Wrap" Foreground="White"></TextBlock>
-                <TextBlock Grid.Column="1" Grid.Row="2" Text="Great sense of style – no one has made so cool app before!" FontSize="22" Margin="5,10,5,5"  TextWrapping="Wrap" Foreground="White"></TextBlock>
-                <TextBlock Grid.Column="1" Grid.Row="3"  Text="Its already there!" TextWrapping="Wrap" FontSize="22" Margin="5,10,5,5"  Foreground="White"></TextBlock>
-                <TextBlock Grid.Column="1" Grid.Row="4" Text="It is great! (I actually learned coding overnight)" FontSize="22" Margin="5,10,5,5"  TextWrapping="Wrap" Foreground="White"></TextBlock>
-                <TextBlock Grid.Column="1" Grid.Row="5" Text="Genius! Everybody loved it!" FontSize="22" Margin="5,10,5,5"  TextWrapping="Wrap" Foreground="White"></TextBlock>
+                <ListView Grid.Column="1" Grid.RowSpan="6" SelectionMode="Multiple">
+                    <TextBlock Grid.Column="1" Grid.Row="0"  Text="Perfect – all the functions work and people might actually use this app." TextWrapping="Wrap" FontSize="22" Margin="5,10,5,5"  Foreground="White"></TextBlock>
+                    <TextBlock Grid.Column="1" Grid.Row="1" Text="All the one person could wish for." FontSize="22" Margin="5,10,5,5"  TextWrapping="Wrap" Foreground="White"></TextBlock>
+                    <TextBlock Grid.Column="1" Grid.Row="2" Text="Great sense of style – no one has made so cool app before!" FontSize="22" Margin="5,10,5,5"  TextWrapping="Wrap" Foreground="White"></TextBlock>
+                    <TextBlock Grid.Column="1" Grid.Row="3"  Text="Its already there!" TextWrapping="Wrap" FontSize="22" Margin="5,10,5,5"  Foreground="White"></TextBlock>
+                    <TextBlock Grid.Column="1" Grid.Row="4" Text="It is great! (I actually learned coding overnight)" FontSize="22" Margin="5,10,5,5"  TextWrapping="Wrap" Foreground="White"></TextBlock>
+                    <Button  FontSize="22"   Grid.Column="1" Grid.Row="5" Foreground="White" Tapped="TextBlock_Tapped_1" Background="Transparent">Genius! Everybody loved it!</Button>
+                </ListView>
 
-                <TextBlock Grid.Column="2" Grid.Row="0"  Text="It is complete, but does not function pretty well." TextWrapping="Wrap" FontSize="22" Margin="5,10,5,5"  Foreground="White"></TextBlock>
+                <ListView Grid.Column="2" Grid.RowSpan="6" SelectionMode="Multiple">
+                    <TextBlock Grid.Column="2" Grid.Row="0"  Text="It is complete, but does not function pretty well." TextWrapping="Wrap" FontSize="22" Margin="5,10,5,5"  Foreground="White"></TextBlock>
                 <TextBlock Grid.Column="2" Grid.Row="1" Text="It could use some sharing feature." FontSize="22" Margin="5,10,5,5"  TextWrapping="Wrap" Foreground="White"></TextBlock>
                 <TextBlock Grid.Column="2" Grid.Row="2" Text="UI is glitchy and design could use some improvements." FontSize="22" Margin="5,10,5,5"  TextWrapping="Wrap" Foreground="White"></TextBlock>
                 <TextBlock Grid.Column="2" Grid.Row="3"  Text="Few more things and it's gone!" TextWrapping="Wrap" FontSize="22" Margin="5,10,5,5"  Foreground="White"></TextBlock>
                 <TextBlock Grid.Column="2" Grid.Row="4" Text="Well, you have actually done something." FontSize="22" Margin="5,10,5,5"  TextWrapping="Wrap" Foreground="White"></TextBlock>
                 <TextBlock Grid.Column="2" Grid.Row="5" Text="Is that it? Where was the jokes? " FontSize="22" Margin="5,10,5,5"  TextWrapping="Wrap" Foreground="White"></TextBlock>
+                </ListView>
 
-                <TextBlock Grid.Column="3" Grid.Row="0"  Text="Why did you made such a terrible app?" TextWrapping="Wrap" FontSize="22" Margin="5,10,5,5"  Foreground="White"></TextBlock>
+                <ListView Grid.Column="3" Grid.RowSpan="6" SelectionMode="Multiple">
+                    <TextBlock Grid.Column="3" Grid.Row="0"  Text="Why did you made such a terrible app?" TextWrapping="Wrap" FontSize="22" Margin="5,10,5,5"  Foreground="White"></TextBlock>
                 <TextBlock Grid.Column="3" Grid.Row="1" Text="When you make an app you should take in consideration that it is meant for Win8." FontSize="22" Margin="5,10,5,5"  TextWrapping="Wrap" Foreground="White"></TextBlock>
                 <TextBlock Grid.Column="3" Grid.Row="2" Text="Where is the back button? Haven't you learned anything from Gusts Linkevičs lecture?" FontSize="22" Margin="5,10,5,5"  TextWrapping="Wrap" Foreground="White"></TextBlock>
                 <TextBlock Grid.Column="3" Grid.Row="3"  Text="Don't even dream about market!" TextWrapping="Wrap" FontSize="22" Margin="5,10,5,5"  Foreground="White"></TextBlock>
                 <TextBlock Grid.Column="3" Grid.Row="4" Text="Slower than turtle." FontSize="22" Margin="5,10,5,5"  TextWrapping="Wrap" Foreground="White"></TextBlock>
-                <TextBlock Grid.Column="3" Grid.Row="5" Text="Better luck next time!!!" FontSize="22" Margin="5,10,5,5"  TextWrapping="Wrap" Foreground="White"></TextBlock>
-
+                <TextBlock Grid.Column="3" Grid.Row="5" Text="Better luck next time!!!" FontSize="22" Margin="5,10,5,5"  TextWrapping="Wrap" Foreground="White" Tapped="TextBlock_Tapped_1"></TextBlock>
+                </ListView>
             </Grid>     
             </ScrollViewer>
 
