@@ -19,9 +19,9 @@ namespace HelloWorld
     /// <summary>
     /// A basic page that provides characteristics common to most applications.
     /// </summary>
-    public sealed partial class GroupX : HelloWorld.Common.LayoutAwarePage
+    public sealed partial class IlzeSpirsa : HelloWorld.Common.LayoutAwarePage
     {
-        public GroupX()
+        public IlzeSpirsa()
         {
             this.InitializeComponent();
         }
@@ -48,23 +48,5 @@ namespace HelloWorld
         protected override void SaveState(Dictionary<String, Object> pageState)
         {
         }
-
-        private void PressedonChuck(object sender, TappedRoutedEventArgs e)
-        {
-            if (this.Frame != null)
-            {
-                this.Frame.Navigate(typeof(ChuckN));
-            }
-        }
-
-
-        private void IjusttappedBritney(object sender, TappedRoutedEventArgs e)
-        {
-            if (this.Frame != null)
-            {
-                this.Frame.Navigate(typeof(IlzeSpirsa));
-            }
-        }
-        }
     }
-
+}

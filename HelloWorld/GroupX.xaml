@@ -79,7 +79,7 @@
                     <TextBox HorizontalAlignment="Left" Margin="0,122,0,0" TextWrapping="Wrap" Text="Kaiva" VerticalAlignment="Top" Width="206" Height="48" FontSize="24" FontWeight="Bold" Background="Black" Foreground="#FFB2A6A6"/>
                 </Grid>
                 <Grid HorizontalAlignment="Left" Height="170" Margin="0,0,10,0" VerticalAlignment="Top" Width="206" Background="#FF615F5F">
-                    <Image Source="Assets/britney.jpg" Stretch="UniformToFill"></Image>
+                    <Image Source="Assets/britney.jpg" Stretch="UniformToFill" Tapped="IjusttappedBritney"></Image>
                     <TextBox HorizontalAlignment="Left" Margin="0,122,0,0" TextWrapping="Wrap" Text="Ilze" VerticalAlignment="Top" Width="206" Height="48" FontSize="24" FontWeight="Bold" Background="Black" Foreground="#FFB2A6A6"/>
                 </Grid>
                 <Grid HorizontalAlignment="Left" Height="170" Margin="0,0,10,0" VerticalAlignment="Top" Width="206" Background="#FF615F5F">
